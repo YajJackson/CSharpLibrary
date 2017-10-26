@@ -40,10 +40,10 @@ namespace _0._08_CollectionsDictionarys
                 { "2010", new string[] { "Toy Story 3", "How to Train Your Dragon", "The Illusionist"} }
             };
 
-            foreach (var nominee in awardNominees)
-            {
-                Console.WriteLine($"Nominees for {nominee.Key}: {nominee.Value[0]}, {nominee.Value[1]}, {nominee.Value[2]}");
-            }
+            //foreach (var nominee in awardNominees)
+            //{
+            //    Console.WriteLine($"Nominees for {nominee.Key}: {nominee.Value[0]}, {nominee.Value[1]}, {nominee.Value[2]}");
+            //}
 
 
 
@@ -52,37 +52,41 @@ namespace _0._08_CollectionsDictionarys
 
 
             //GOLD
-            //bool run = true;
-            //while (run)
-            //{
-            //    Console.WriteLine("Enter a year: ");
-            //    string inputYear = Console.ReadLine();
+            bool run = true;
 
-            //    if (awardWinners.ContainsKey(inputYear) && awardNominees.ContainsKey(inputYear))
-            //    {
-            //        Console.WriteLine("To show winner, enter 'winner'. \n" +
-            //            "To show nominees, enter 'nominees'. \n" +
-            //            "To end the application, enter 'stop'.");
-            //        string operation = Console.ReadLine().ToLower();
-            //        switch (operation)
-            //        {
-            //            case "winner":
-            //                Console.WriteLine($"The winner of the {inputYear} was {awardWinners[inputYear]}\n\n");
-            //                break;
-            //            case "nominees":
-            //                string nominees = String.Join(", ", awardNominees[inputYear]);
-            //                Console.WriteLine($"The nominees of the {inputYear} were: {nominees}.\n\n");
-            //                break;
-            //            case "stop":
-            //                run = false;
-            //                break;
-            //        }
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Please enter a year between 2006 and 2010. \n\n");
-            //    }
-            //}
+            while (run)
+            {
+                Console.WriteLine("Enter a year: ");
+                string inputYear = Console.ReadLine();
+
+                if (awardWinners.ContainsKey(inputYear) && awardNominees.ContainsKey(inputYear))
+                {
+                    Console.WriteLine("To show winner, enter 'winner'. \n" +
+                        "To show nominees, enter 'nominees'. \n" +
+                        "To end the application, enter 'stop'.");
+                    string operation = Console.ReadLine().ToLower();
+                    switch (operation)
+                    {
+                        case "winner":
+                            Console.WriteLine($"The winner of the {inputYear} was {awardWinners[inputYear]}\n\n");
+                            break;
+                        case "nominees":
+                            string nominees = String.Join(", ", awardNominees[inputYear]);
+                            Console.WriteLine($"The nominees of the {inputYear} were: {nominees}.\n\n");
+                            break;
+                        case "stop":
+                            run = false;
+                            break;
+                        default:
+                            Console.WriteLine("Sorry, that's not a valid input.");
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Please enter a year between 2006 and 2010. \n\n");
+                }
+            }
 
 
         }
