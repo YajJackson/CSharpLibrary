@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.06_FizzBuzz", "0.06_FizzB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.07_Objects", "0.07_Objects\0.07_Objects.csproj", "{34F9956A-459A-4706-94C4-1D1C23E48C94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.07_ObjectsChallenges", "0.07_ObjectsChallenges\0.07_ObjectsChallenges.csproj", "{186FFBA8-D7C8-4D3B-9951-F163B21CC985}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{34F9956A-459A-4706-94C4-1D1C23E48C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34F9956A-459A-4706-94C4-1D1C23E48C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34F9956A-459A-4706-94C4-1D1C23E48C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186FFBA8-D7C8-4D3B-9951-F163B21CC985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186FFBA8-D7C8-4D3B-9951-F163B21CC985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186FFBA8-D7C8-4D3B-9951-F163B21CC985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186FFBA8-D7C8-4D3B-9951-F163B21CC985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
