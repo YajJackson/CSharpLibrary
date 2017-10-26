@@ -7,7 +7,7 @@
     <ProjectGuid>{EEB696B6-83FC-44D7-BBFC-BE1862E349B5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_0._08_CollectionsArrays</RootNamespace>
-    <AssemblyName>_0._08_CollectionsArrays</AssemblyName>
+    <AssemblyName>0.08_CollectionsArrays</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
