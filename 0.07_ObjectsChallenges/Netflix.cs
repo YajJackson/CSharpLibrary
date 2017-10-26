@@ -13,7 +13,7 @@ namespace _0._07_ObjectsChallenges
         public string Genre { get; set; }
         public double Rating { get; set; }
 
-        // Methods
+        // Methods 
         public void GetSuggestion()
         {
             if (this.Rating > 3.5)
