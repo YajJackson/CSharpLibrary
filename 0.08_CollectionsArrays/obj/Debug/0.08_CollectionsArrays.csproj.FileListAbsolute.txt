@@ -4,3 +4,4 @@ C:\DotNetOctober\CSharpLibrary\0.08_CollectionsArrays\bin\Debug\0.08_Collections
 C:\DotNetOctober\CSharpLibrary\0.08_CollectionsArrays\obj\Debug\0.08_CollectionsArrays.csproj.CoreCompileInputs.cache
 C:\DotNetOctober\CSharpLibrary\0.08_CollectionsArrays\obj\Debug\0.08_CollectionsArrays.exe
 C:\DotNetOctober\CSharpLibrary\0.08_CollectionsArrays\obj\Debug\0.08_CollectionsArrays.pdb
+C:\DotNetOctober\CSharpLibrary\0.08_CollectionsArrays\obj\Debug\0.08_CollectionsArrays.csprojResolveAssemblyReference.cache

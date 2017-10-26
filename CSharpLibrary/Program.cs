@@ -10,6 +10,7 @@ namespace CSharpLibrary
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

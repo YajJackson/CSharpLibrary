@@ -13,34 +13,46 @@ namespace _0._08_CollectionsArrays
             //BRONZE
             string[] favFoods = new string[3];
 
-            favFoods[0] = "ice cream";
+            favFoods[0] = "Ice Cream";
             favFoods[1] = "Creme Fraiche";
             favFoods[2] = "Deconstructed Artichoke";
 
-            //SILVER
-            int[] numbers1 = new int[5] { 3, 7, 2, 5, 10 };
-            int[] numbers2 = new int[5] { 1, 3, 6, 3, 4 };
+            foreach (string food in favFoods)
+            {
+                Console.WriteLine(food);
+            }
+
+            //Silver
+            int[] numbers1 = new int[5] { 3, 4, 4, 5, 5 };
+            int[] numbers2 = new int[5] { 7, 2, 43, 2, 12 };
 
             int[] numbers3 = new int[5];
 
+            //using a for loop to create the array
             for (int i = 0; i < numbers3.Length; i++)
             {
                 numbers3[i] = numbers1[i] + numbers2[i];
             }
 
-            Console.WriteLine(numbers3[4]);
+            //using a foreach loop to display the array
+            foreach (int number in numbers3)
+            {
+                Console.WriteLine(number);
+            }
 
             //GOLD
-            Random rnd = new Random();
-
             int[] randomNumbers = new int[10];
+            Random rnd = new Random();
 
             for (int i = 0; i < randomNumbers.Length; i++)
             {
                 randomNumbers[i] = rnd.Next(100);
-                Console.WriteLine(randomNumbers[i]);
             }
 
+            foreach (int number in randomNumbers)
+            {
+                Console.WriteLine(number);
+            }
 
         }
     }
