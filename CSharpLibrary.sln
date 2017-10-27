@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.08_CollectionsDictionarie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.09_Constructors", "0.09_Constructors\0.09_Constructors.csproj", "{08B7BEFF-8949-46A0-9AF0-E40CA6EF0C0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.09_ConstructorsPhoneChallenge", "0.09_ConstructorsPhoneChallenge\0.09_ConstructorsPhoneChallenge.csproj", "{13E24280-7193-4DBF-9599-ECCCCE1EB30B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{08B7BEFF-8949-46A0-9AF0-E40CA6EF0C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08B7BEFF-8949-46A0-9AF0-E40CA6EF0C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08B7BEFF-8949-46A0-9AF0-E40CA6EF0C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E24280-7193-4DBF-9599-ECCCCE1EB30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E24280-7193-4DBF-9599-ECCCCE1EB30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E24280-7193-4DBF-9599-ECCCCE1EB30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E24280-7193-4DBF-9599-ECCCCE1EB30B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
