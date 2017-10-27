@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{12957531-BBC2-4CCB-879E-3DD1DD7D53D8}</ProjectGuid>
+    <ProjectGuid>{08B7BEFF-8949-46A0-9AF0-E40CA6EF0C0B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0._08_CollectionsDictionarys</RootNamespace>
-    <AssemblyName>0.08_CollectionsDictionarys</AssemblyName>
+    <RootNamespace>_0._09_Constructors</RootNamespace>
+    <AssemblyName>0.09_Constructors</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,23 +44,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\0.07_ObjectsChallenges\0.07_ObjectsChallenges.csproj">
-      <Project>{186ffba8-d7c8-4d3b-9951-f163b21cc985}</Project>
-      <Name>0.07_ObjectsChallenges</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\0.07_Objects\0.07_Objects.csproj">
-      <Project>{34f9956a-459a-4706-94c4-1d1c23e48c94}</Project>
-      <Name>0.07_Objects</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CSharpLibrary\CSharpLibrary.csproj">
-      <Project>{93105dfb-2b28-4d32-9066-06f64bd04bf0}</Project>
-      <Name>CSharpLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
