@@ -14,8 +14,16 @@ namespace _0._09_ConstructorsPhoneChallenge
             this.Make = make;
             this.Model = model;
         }
+        //Constructor Silver
+        public MobilePhone(string owner, string make, string model)
+        {
+            this.Owner = owner;
+            this.Make = make;
+            this.Model = model;
+        }
 
         //Properties
+        public string Owner { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
 
