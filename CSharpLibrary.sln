@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.13_GettersSetters", "0.13
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.14_Override", "0.14_Override\0.14_Override.csproj", "{6EAF0B26-E97C-4F35-ABD6-EAF9BE403D65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0.15_LINQ", "0.15_LINQ\0.15_LINQ.csproj", "{A2ADA510-6AB3-4D24-A0E5-B279C1D95075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{6EAF0B26-E97C-4F35-ABD6-EAF9BE403D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EAF0B26-E97C-4F35-ABD6-EAF9BE403D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EAF0B26-E97C-4F35-ABD6-EAF9BE403D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2ADA510-6AB3-4D24-A0E5-B279C1D95075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2ADA510-6AB3-4D24-A0E5-B279C1D95075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2ADA510-6AB3-4D24-A0E5-B279C1D95075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2ADA510-6AB3-4D24-A0E5-B279C1D95075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
