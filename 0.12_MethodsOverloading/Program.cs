@@ -19,7 +19,7 @@ namespace _0._12_MethodsOverloading
             // Attack(100, "Weapon", #ofTimes) -->  "Attacked with Weapon for 100 #ofTimes, dealing totalDamage!"
 
             Player me = new Player();
-            Player you = new Player("John");
+            
             me.Attack(2500);
             me.Attack(1000, "dusty stick");
             me.Attack(500, "Katana", 90);
