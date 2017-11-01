@@ -20,6 +20,13 @@ namespace _0._11_OOP_Game_BuildAlong
             this.CritChance = 0.10;
         }
 
+        public void MakeOverPowered()
+        {
+            this.Level = 99999999;
+            this.AttackPower = 999999999;
+            this.CritChance = 1.00;
+        }
+
         //Properties
         public Specialization Role { get; set; }
 
