@@ -25,7 +25,7 @@ namespace _0._15_LINQ
             }
 
             //EXAMPLE 2
-            IEnumerable<Employee> employees = new List<Employee>()
+            List<Employee> employees = new List<Employee>()
             {
                 new Employee {ID=1,Name="Johnboy",HireDate=new DateTime(2015,3,5)},
                 new Employee {ID=2,Name="Susann",HireDate=new DateTime(2016,9,23)},
@@ -38,6 +38,7 @@ namespace _0._15_LINQ
                                              where e.HireDate.Year == 2016
                                              orderby e.Name ascending
                                              select e;
+
             foreach (Employee employee in queryTwo)
             {
                 Console.WriteLine(employee.Name);

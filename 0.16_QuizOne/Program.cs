@@ -42,9 +42,6 @@ namespace _0._16_QuizOne
             triFive.Area();
 
 
-
-
-
             //PART TWO: LINQ
             //
             //Create a List of Triangle objects
