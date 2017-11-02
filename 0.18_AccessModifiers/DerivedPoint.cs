@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace _0._18_AccessModifiers
 {
-    class Program
+    class DerivedPoint : Point
     {
-        static void Main(string[] args)
+        public int DerivedPointMethod()
         {
-            Point point = new Point();
-            DerivedPoint dpoint = new DerivedPoint();
+            return this.X;
         }
     }
 }
