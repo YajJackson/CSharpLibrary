@@ -41,6 +41,41 @@ namespace _0._16_QuizOne
             triFour.Area();
             triFive.Area();
 
+
+
+
+
+            //PART TWO: LINQ
+            //
+            //Create a List of Triangle objects
+            //
+            //Using LINQ, set up a query that selects Triangles above
+            //a certain area, and sorts them by ascending value.
+            //
+            //Display the results of the query using a loop.
+
+            //Set up our collection
+            IEnumerable<Triangle> triangles = new List<Triangle>
+            {
+                triOne,
+                triTwo,
+                triThree,
+                triFour,
+                triFive
+            };
+
+            //Set up query using LINQ
+            IEnumerable<Triangle> query = from t in triangles
+                                          where t.TArea > 10
+                                          orderby t.TArea ascending
+                                          select t;
+
+            //Display query results
+            foreach (Triangle triangle in query)
+            {
+                Console.WriteLine(triangle.TArea);
+            }
+
         }
     }
 }
